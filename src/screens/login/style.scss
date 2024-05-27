@@ -1,0 +1,104 @@
+// body{
+//     background-color: #724cf9;
+// }
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.main-div{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    /* padding-right: 0 !important; */
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+.box{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    /* background-color: rgb(0, 0, 0, 0.8); */
+    background-color: #333533;
+    border-radius: 10px;
+
+}
+.box h1{
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+}
+.box .input-box{
+    position: relative;
+}
+.box .input-box input{
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+}
+.box .input-box label{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #fff;
+    transition: 0.5s ;
+}
+.btn{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 8px 16px;
+    border-radius: 10px;
+    width: 100%;
+}
+.box .input-box input:focus ~ label,
+.box .input-box input:valid ~ label{
+    top: -20px;
+    left: 0;
+    color: #03a9f4;
+    font-size: 12px;
+
+}
+.parant{
+    color: wheat;
+    position: relative;
+    left: 180px;
+    top: -20px;
+    
+}
+.parant a {
+    color: wheat;
+    font-size: 16px;
+    text-decoration: none;
+}
+.register{
+    text-align: center;
+    color: wheat;
+    margin-top: 10px;
+}
+.register a{
+    color: black;
+    text-decoration: none;
+}
+// #forgot{
+//     cursor: pointer;
+// }
