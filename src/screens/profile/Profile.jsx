@@ -21,7 +21,7 @@ const Profile = () => {
       //=======================End==================>>
     
   return (
-    <div>Profile</div>
+    <div className='m-auto text-center text-3xl mt-5'>Update Password Work</div>
   )
 }
 
